@@ -1,10 +1,22 @@
 package com.sven.core.day3;
 
+
+
 import java.util.Arrays;
+import com.sven.core.day2.Test;
+
 
 public class Main {
 
     public static void main(String[] args) {
+
+        //使用引用的类
+        Test t1 = new Test();
+        t1.out_name = "test_rt";
+        System.out.println(t1.out_name);
+
+
+
         //声明一个数组
         int[] a;
         a = new int[5];
